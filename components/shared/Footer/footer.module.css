@@ -4,11 +4,12 @@
   font-size: var(--fs-sm);
 }
 
-.container {
+.wrapper {
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   max-width: var(--page-width);
   margin-inline: auto;
+  padding-block: 1rem;
 }
 
 .sm_container {
@@ -20,16 +21,32 @@
 }
 
 .copyright {
+  border-top: 1px solid var(--clr-alpha-100);
   text-align: center;
+  padding-block: 1.25rem;
 }
 
 .col_span_2 {
+  gap: 0.5rem;
   grid-column: span 2;
   max-width: 40ch;
 }
 
+.footer_topic {
+  gap: 0.5rem;
+}
+
+.col_span_2 span,
+.footer_topic > span {
+  font-weight: var(--fw-700);
+}
+
+.footer_item {
+  gap: 0.25rem;
+}
+
 @media (max-width: 660px) {
-  .container {
+  .wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
