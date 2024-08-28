@@ -11,7 +11,7 @@ const Footer = () => {
 
           <span>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-            molestias similique vero earum quo aut
+            molestias similique vero earum quo
           </span>
         </li>
 

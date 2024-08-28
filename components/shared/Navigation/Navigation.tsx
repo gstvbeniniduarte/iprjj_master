@@ -1,5 +1,5 @@
-import { FC, useMemo } from "react";
 import Link from "next/link";
+import { FC, useMemo } from "react";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/constants/Index";
 import styles from "./navigation.module.css";

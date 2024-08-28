@@ -6,7 +6,7 @@ export default function NotFound() {
     <div className={styles.wrapper}>
       <Image
         src="/assets/images/catstruction.webp"
-        alt=""
+        alt="Site em construção"
         width={299}
         height={348}
       />

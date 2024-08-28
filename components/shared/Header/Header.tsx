@@ -18,7 +18,7 @@ const Header: FC<HeaderProps> = ({ isActive, isHidden, isOpen, onToggle }) => {
     <header
       className={`${styles.header} ${isActive ? styles.active : ""} ${isHidden ? styles.hide : ""}`}
     >
-      <div className={`${styles.container} flex-aligned `}>
+      <div className={`${styles.container} flex-aligned`}>
         <Link
           className={`${styles.logo} flex-aligned`}
           href="/"

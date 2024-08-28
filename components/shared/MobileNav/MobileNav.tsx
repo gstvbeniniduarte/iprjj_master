@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from "./mobileNav.module.css";
+import styles from "./mobilenav.module.css";
 import Navigation from "../Navigation/Navigation";
 
 interface MobileNavProps {
