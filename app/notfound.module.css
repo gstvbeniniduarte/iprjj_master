@@ -1,0 +1,8 @@
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--clr-primary-900);
+  display: grid;
+  margin-inline: auto;
+  place-content: center;
+}

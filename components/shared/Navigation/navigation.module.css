@@ -1,0 +1,15 @@
+.desktopVariant {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.mobileVariant {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (max-width: 52.5rem) {
+  .desktopVariant {
+    display: none;
+  }
+}

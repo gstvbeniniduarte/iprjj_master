@@ -1,0 +1,36 @@
+.header {
+  background-color: transparent;
+  border-block-end: 1px solid var(--clr-alpha-100);
+  min-width: 100%;
+  position: fixed;
+  transition: transform var(--tr-quick);
+  z-index: 100;
+}
+
+.header.active {
+  background-color: var(--clr-primary-900);
+  border-color: var(--clr-alpha-800);
+  padding-block: 0;
+}
+
+.header.hide {
+  transform: translateY(-100%);
+  transition-delay: 250ms;
+}
+
+.container {
+  color: var(--clr-primary-100);
+  justify-content: space-between;
+  margin-inline: auto;
+  max-width: var(--page-width);
+  padding-block: var(--header-v-padding);
+  text-wrap: nowrap;
+}
+
+.logo {
+  gap: 0.75rem;
+}
+
+.logo_img {
+  width: var(--logo-size);
+}

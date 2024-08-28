@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--clr-primary-900);
+  color: var(--clr-primary-100);
+  font-size: var(--fs-sm);
+}
+
+.container {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: var(--page-width);
+  margin-inline: auto;
+}
+
+.sm_container {
+  gap: 0.5rem;
+}
+
+.social_link_icon {
+  fill: var(--clr-primary-100);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.col_span_2 {
+  grid-column: span 2;
+  max-width: 40ch;
+}
+
+@media (max-width: 660px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
